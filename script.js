@@ -19,7 +19,7 @@ function update(time) {
     }
     const delta = time - lastTime
     
-    updateGround(delta)
+    updateGround(delta, 1)
 
     lastTime = time
     window.requestAnimationFrame(update)
